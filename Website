@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvolvAmman - Bilişim Danışmanlığı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #2c3e50;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="evolvamman_logo.png" alt="EvolvAmman Logo">
+        <h1>EvolvAmman</h1>
+        <p>Bilişim Hizmetleri Danışmanlığı</p>
+    </header>
+    <nav>
+        <a href="#about">Hakkımızda</a>
+        <a href="#services">Hizmetler</a>
+        <a href="#blog">Blog</a>
+        <a href="#references">Referanslar</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Hakkımızda</h2>
+            <p>EvolvAmman, bilişim alanında uzmanlaşmış danışmanlık hizmetleri sunan bir firmadır.</p>
+        </section>
+        <section id="services">
+            <h2>Hizmetlerimiz</h2>
+            <p>Bilişim stratejileri, altyapı danışmanlığı, siber güvenlik ve daha fazlası.</p>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Bilişim dünyasındaki en son gelişmeler ve uzman görüşlerimiz.</p>
+        </section>
+        <section id="references">
+            <h2>Referanslar</h2>
+            <p>Henüz referanslarımız bulunmamaktadır. Ancak gelecekte burada müşteri yorumlarımızı ve başarı hikayelerimizi paylaşacağız.</p>
+        </section>
+        <section id="contact">
+            <h2>İletişim</h2>
+            <p>Bize ulaşmak için info@evolvamman.com adresine e-posta gönderebilirsiniz.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 EvolvAmman. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
